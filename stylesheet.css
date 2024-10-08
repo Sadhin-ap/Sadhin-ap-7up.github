@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+}
+@font-face {
+    font-family: NUNITO1;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'NUNITO';
+    src: url(Nunito-Black.ttf);
+}
+.full{
+    background-color: #f3f2f2;
+
+}
+.navbar{
+    height: 120px;
+    width: 100vw;
+    background-color:  #eca388;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    
+    
+}
+.navbar .logo{
+    height: 83px;
+    width: 90px;
+    margin: .5rem 0 0 .5rem;
+}
+.nav img{
+    max-width: 29px;
+    padding-top: 8px;
+    padding-right: 1px;
+    cursor: pointer;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 9px;
+    font-family: 'NUNITO';
+
+    
+    
+}
+.nav-list a{
+    text-decoration: none;
+    width: 3rem;
+    color: wheat;
+    padding: 1px 9px;
+    
+    
+    font-size: 1.4rem;
+    font-stretch:condensed;
+    letter-spacing: 2px;
+    padding-left: 80px;
+}
+.leftnav{
+    margin: 0;
+    padding: 0 35px 5px 6px;
+    
+}
+.up{
+    width: 100vw;
+    position: relative;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 585px;
+    left: 155px;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    height: 48px;
+    width: 10rem;
+    border-radius: 5rem;
+    justify-content: center;
+    border: 2px solid;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.paro{
+    position: absolute;
+    top: 430px;
+    left: 155px;
+    font-family: 'NUNITO';
+    color: white;
+    font-size: 90px;
+    font-weight: 800;
+    letter-spacing: -7px;
+    
+    
+}
+.paro-1{
+    position: absolute;
+    top: 495px;
+    left: 155px;
+    font-family: 'NUNITO';
+    color: white;
+    font-size: 90px;
+    font-weight: 800;
+    letter-spacing: -7px;
+    
+}
+.green{
+    position: absolute;
+    /* top: 70vw; */
+    left: 550px;
+    background-color: rgba(5, 54, 5, 0.708);
+    height: 235px;
+    width: 800px;
+    border-radius: 120px;
+}
+.hed{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'NUNITO1';
+    color: white;
+}
+.state{
+    position: relative;
+    top: 70px;
+     display: flex;
+     justify-content: center;
+     font-family: 'NUNITO1';
+     color: white;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    height: 48px;
+    width: 10rem;
+    border-radius: 7rem;
+    justify-content: center;
+    border: 2px solid;
+    font-weight: 600;
+    text-decoration: none;
+    top: 135px;
+    left: 310px;
+}
+.green{
+    position: absolute;
+    top: 150%;
+    left: 550px;
+    background-color: rgba(5, 54, 5, 0.708);
+    height: 235px;
+    width: 800px;
+    border-radius: 120px;
+}
+.green1{
+    position: absolute;
+    top: 250%;
+    left: 550px;
+    background-color: rgba(5, 54, 5, 0.708);
+    height: 235px;
+    width: 800px;
+    border-radius: 120px;
+}
+.hed.hed1{
+    position: relative;
+   top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'NUNITO1';
+    color: white;
+}
+.state.state1{
+ position: relative;
+ top: 70px;
+ display: flex;
+justify-content: center;
+font-family: 'NUNITO1';
+ color: white;}
+ .fotr{
+    background-color: rgb(52, 49, 49);
+    width: 100vw;
+    height: 130px;
+ }
+ .box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 40%;
+    font-size: 11px;
+    position: absolute;
+ }
+ #box{
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    
+ }
+ a{
+    color: white;
+    text-decoration: none;
+
+ }
+ .para{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-top: 54px;
+ }
+ .para p{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    width: 40%;
+    font-size: 10px;
+    position: absolute;
+    margin-top: 0px;
+    color: white;
+ }
+ 
